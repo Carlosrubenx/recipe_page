@@ -3,3 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --font-family: "Alice", serif;
+
+  --backgroun-color: #573824;
+  --surface-color: #F0E8C2;
+
+  --text-color-primary: #291B1A;
+  --text-color-secondary: #573A37;
+  --text-color-on-gb: #F0E8C2;
+
+  --title-h1: 400 40px/140% var(--font-family);
+  --title-h2: 400 24px/150% var(--font-family);
+  --text-default: 400 16px/150% var(--font-family);
+}
