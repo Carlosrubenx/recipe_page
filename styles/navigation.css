@@ -1,0 +1,32 @@
+#wrap-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 34px;
+    height: 34px;
+  }
+}
+
+#navigation {
+  background-color: var(--surface-color);
+  padding: 8px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  ul {
+    display: flex;
+    gap: 14px;
+  }
+
+  ul li a{
+    color: var(--text-color-primary);
+    transition: all 0.5s ease;
+  }
+
+  ul li a:hover {
+    color: var(--text-color-secondary);
+  }
+}
